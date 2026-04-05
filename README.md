@@ -46,6 +46,35 @@ Why this stack was chosen for FPGA deployment:
   - Deterministic parallel compute path on FPGA fabric.
   - Throughput scales with replicated cores and fixed datapaths.
 
+## ELI5: What The Cores Do
+Think of the NPU cluster like a small factory line where each worker has one clear job.
+
+- Input/Embed cores:
+  - Turn incoming token IDs into vector form the model can work with.
+- Sequence/state cores (Mamba path):
+  - Keep track of context over time and update internal state each token step.
+- Compute cores (KAN + arithmetic path):
+  - Do the heavy math for feature transforms and scoring.
+- Selection/sampling cores:
+  - Pick the next token from candidate scores (top-k / temperature policy).
+- Control + memory mover cores:
+  - Feed data between DDR and compute blocks and keep timing deterministic.
+
+In short:
+- some cores remember context,
+- some cores do math,
+- some cores choose the next word,
+- and some cores keep data moving so nothing stalls.
+
+## Why `JANG_4M-CRACK` Was Used
+- It was the pinned teacher/model line in this release contract (`teacher_model_id` in `model_contract.json`).
+- It matched the tokenizer path and vocabulary pin used in the deployed runtime guards.
+- It provided a practical already-available starting point for this artifact bundle while training compute was constrained.
+
+Operationally this means:
+- Reproducibility of this bundle depends on keeping model ID, tokenizer, and contract aligned.
+- Swapping model line without revalidating tokenizer/contract can break semantic output quality.
+
 ## Main Challenges
 - Training compute ceiling:
   - Current available hardware cannot sustain enough epochs for reliable quality improvements.
