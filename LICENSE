@@ -1,52 +1,85 @@
-Dual-Use Non-Commercial License (Project Additions) v1.0
+﻿Dual-Use Non-Commercial License (Project-Owned Materials) v2.0
 
 Copyright (c) 2026 Project Maintainers.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this repository's Project-Owned Materials (as defined below), to use,
-copy, modify, and redistribute those Project-Owned Materials, subject to the
-following conditions:
+IMPORTANT: This license applies only to Project-Owned Materials in this repository.
+Third-party components remain under their own licenses and terms.
 
-1) Non-Commercial Use Only
-You may use the Project-Owned Materials solely for non-commercial purposes,
-including research, education, personal projects, and non-commercial internal
-evaluation.
+1. Definitions
+1.1 "Project-Owned Materials" means repository content authored by Project Maintainers
+and not identified as third-party content.
+1.2 "Non-Commercial Use" means use solely for research, education, personal projects,
+and internal evaluation where no direct or indirect commercial advantage is pursued.
+1.3 "Commercial Use" includes selling, licensing, paid hosting, paid APIs, paid support,
+consulting bundled with access, or any use that creates direct or indirect commercial advantage.
 
-2) Commercial Use Prohibited Without Written Permission
-You may not sell, sublicense, monetize, host as a paid service, bundle into a
-paid offering, or otherwise use the Project-Owned Materials for direct or
-indirect commercial advantage, unless you obtain prior written permission from
-the Project Maintainers.
+2. License Grant (Non-Commercial Only)
+Subject to this license, you are granted a worldwide, non-exclusive, revocable,
+royalty-free right to use, copy, modify, and redistribute Project-Owned Materials
+for Non-Commercial Use only.
 
-3) Attribution
-Redistributions of Project-Owned Materials must retain this license text and
-must provide clear attribution to the Project Maintainers.
+3. Commercial Use Prohibited Without Written Permission
+You may not engage in Commercial Use unless you first obtain explicit prior written
+permission from Project Maintainers.
 
-4) Mark Changes
-If you modify Project-Owned Materials, you must clearly indicate that changes
-were made.
+4. Redistribution Conditions
+If you redistribute Project-Owned Materials (modified or unmodified), you must:
+4.1 Include this license text unchanged.
+4.2 Keep all copyright, attribution, and notice text intact.
+4.3 Clearly mark modifications and modification dates.
+4.4 Keep this same license on redistributed Project-Owned Materials.
+4.5 Not imply endorsement by Project Maintainers.
 
-5) No Warranty
-THE PROJECT-OWNED MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+5. Restrictions
+You may not:
+5.1 Remove or obscure licensing/attribution notices.
+5.2 Use Project-Owned Materials for unlawful purposes.
+5.3 Circumvent third-party license obligations.
+5.4 Re-license Project-Owned Materials under terms that permit Commercial Use.
 
-6) Limitation of Liability
-IN NO EVENT SHALL THE PROJECT MAINTAINERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
-FROM, OUT OF, OR IN CONNECTION WITH THE PROJECT-OWNED MATERIALS OR THE USE OR
-OTHER DEALINGS IN THE PROJECT-OWNED MATERIALS.
-
-7) Third-Party Materials and License Priority
-This license applies only to Project-Owned Materials in this repository.
-Third-party materials remain under their original licenses and terms.
-For Gemma and Gemma-related model materials, users must also comply with:
+6. Third-Party Materials and Priority
+6.1 Third-party materials are excluded from this license and remain governed by their original terms.
+6.2 For Gemma and Gemma-derived materials, users must comply with applicable Gemma terms:
 https://ai.google.dev/gemma/terms
+6.3 If any third-party license grants rights that cannot be restricted by this license,
+that third-party license controls for those components.
 
-If any third-party license grants rights that cannot be restricted by this
-license, the third-party license controls for those specific components.
+7. Compliance Responsibility
+You are solely responsible for legal and regulatory compliance in your jurisdiction,
+including export controls, sanctions, and data protection laws.
 
-Definition: "Project-Owned Materials"
-Project-Owned Materials means repository content authored by the Project
-Maintainers and not identified as third-party content.
+8. No Trademark License
+No rights are granted to use names, logos, or trademarks of Project Maintainers
+except for factual attribution.
 
+9. Disclaimer of Warranty
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, PROJECT-OWNED MATERIALS ARE PROVIDED
+"AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+10. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL PROJECT MAINTAINERS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES,
+INCLUDING LOSS OF DATA, PROFITS, GOODWILL, OR BUSINESS INTERRUPTION, ARISING FROM USE OF
+PROJECT-OWNED MATERIALS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+11. Termination
+11.1 This license terminates automatically upon breach.
+11.2 Upon termination, you must cease use and distribution of Project-Owned Materials.
+11.3 Reinstatement requires explicit written permission from Project Maintainers.
+
+12. Severability and No Waiver
+12.1 If a clause is unenforceable, remaining clauses remain in effect.
+12.2 Failure to enforce any right is not a waiver of future enforcement.
+
+13. Governing Law and Venue
+To the extent permitted by applicable law, disputes are governed by the law of the
+jurisdiction of Project Maintainers' principal place of business, excluding conflict-of-law rules.
+Venue lies in the competent courts of that jurisdiction.
+
+14. Entire Agreement for Project-Owned Materials
+This license is the entire agreement for Project-Owned Materials.
+It does not alter obligations from third-party licenses.
+
+Commercial licensing requests:
+- Contact: <set-contact-email>

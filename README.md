@@ -134,7 +134,7 @@ Base tx links:
 This repository is intended to comply with Gemma terms and Gemma 4 license requirements.
 
 See:
-- `LICENSE`
+- `LICENSE` (Dual-Use Non-Commercial License v2.0 for Project-Owned Materials)
 - `NOTICE`
 - `MODEL_PROVENANCE.md`
 - `RELEASE_CHECKLIST.md`
@@ -142,3 +142,8 @@ See:
 Important:
 - Third-party components keep their original licenses.
 - Gemma-related materials remain subject to https://ai.google.dev/gemma/terms
+- Commercial use is prohibited unless explicit written permission is granted by maintainers.
+
+Legal hardening note:
+- The license text is intentionally strict and drafted for enforceability (definitions, scope, restrictions, termination, liability, severability, and third-party precedence).
+- No custom license can be guaranteed as \"unattackable\" across all jurisdictions; for production/commercial exposure, run a local attorney review and set the contact placeholder in `LICENSE`.
