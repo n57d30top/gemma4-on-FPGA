@@ -1,0 +1,4 @@
+﻿# Run from repository root on Linux/macOS:
+# sha256sum omni_titan_agi_top.bit weights_int4_FINAL.bin model_contract.json tokenizer/tokenizer.json > SHA256SUMS
+
+<fill with generated hashes>

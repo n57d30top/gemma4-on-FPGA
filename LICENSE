@@ -1,0 +1,52 @@
+Dual-Use Non-Commercial License (Project Additions) v1.0
+
+Copyright (c) 2026 Project Maintainers.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this repository's Project-Owned Materials (as defined below), to use,
+copy, modify, and redistribute those Project-Owned Materials, subject to the
+following conditions:
+
+1) Non-Commercial Use Only
+You may use the Project-Owned Materials solely for non-commercial purposes,
+including research, education, personal projects, and non-commercial internal
+evaluation.
+
+2) Commercial Use Prohibited Without Written Permission
+You may not sell, sublicense, monetize, host as a paid service, bundle into a
+paid offering, or otherwise use the Project-Owned Materials for direct or
+indirect commercial advantage, unless you obtain prior written permission from
+the Project Maintainers.
+
+3) Attribution
+Redistributions of Project-Owned Materials must retain this license text and
+must provide clear attribution to the Project Maintainers.
+
+4) Mark Changes
+If you modify Project-Owned Materials, you must clearly indicate that changes
+were made.
+
+5) No Warranty
+THE PROJECT-OWNED MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6) Limitation of Liability
+IN NO EVENT SHALL THE PROJECT MAINTAINERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE PROJECT-OWNED MATERIALS OR THE USE OR
+OTHER DEALINGS IN THE PROJECT-OWNED MATERIALS.
+
+7) Third-Party Materials and License Priority
+This license applies only to Project-Owned Materials in this repository.
+Third-party materials remain under their original licenses and terms.
+For Gemma and Gemma-related model materials, users must also comply with:
+https://ai.google.dev/gemma/terms
+
+If any third-party license grants rights that cannot be restricted by this
+license, the third-party license controls for those specific components.
+
+Definition: "Project-Owned Materials"
+Project-Owned Materials means repository content authored by the Project
+Maintainers and not identified as third-party content.
+

@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-04-04T23:52:02Z",
+  "teacher_model_id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+  "tokenizer_path": "/home/sovryn/tokenizers/dealignai_gemma/tokenizer.json",
+  "tokenizer_sha256": "3151898c022536cf420b732dd2fcbf8e7c456cd39711a27f9b82a7ced72b6c83",
+  "weights_path": "/home/sovryn/weights_int4_FINAL.bin",
+  "weights_sha256": "7ba5c0c5b350a8b0c50c7ec7fe30b64064bee4f13ce6d588eeb826d84d3644ce",
+  "notes": "Pinned contract switched to dealignai_gemma tokenizer for semantic A/B test on Epsilon"
+}
